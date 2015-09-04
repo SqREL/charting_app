@@ -1,0 +1,39 @@
+{
+  "name": "cyber_craft",
+  "version": "1.0.0",
+  "description": "Chart App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.development.config.js --hot --colors --progress --inline --content-base build/",
+    "build": "webpack --config webpack.production.config.js"
+  },
+  "author": "Vasilij Melnychuk <vasilij@melnychuk.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.8.9",
+    "webpack-dev-server": "^1.8.2",
+    "css-loader": "^0.16.0",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "expose-loader": "^0.7.0",
+    "file-loader": "^0.8.4",
+    "node-sass": "^3.3.2",
+    "script-loader": "^0.6.1",
+    "url-loader": "^0.5.6",
+    "sass-loader": "^2.0.1",
+    "react-bootstrap": "^0.22.4"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "react-bootstrap": "^0.21.0",
+    "react-router-bootstrap": "^0.13.0",
+    "lodash": "^3.7.0",
+    "babel-loader": "^5.3.2",
+    "papaparse": "^4.1.2",
+    "dsv-loader": "^1.0.0",
+    "react-chartist": "^0.8.0"
+  }
+}

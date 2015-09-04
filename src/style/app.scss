@@ -1,0 +1,17 @@
+.chart-block-wrapper {
+  padding: 10px;
+  h2 {
+    color: #515151;
+  }
+  .chart-wrapper {
+    .ct-chart{
+      padding-bottom: 0;
+    }
+    .chart-description{
+      color: #858585;
+      text-align: center;
+      padding-top:0;
+    }
+    padding-bottom: 20px;
+  }
+}
